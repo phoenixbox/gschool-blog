@@ -14,9 +14,11 @@ No tougher than I expected it to be, and no less, just enough to reiterate my as
 As for moving from Ireland to Denver, things have been going well so far. I havnt had a solid home yet as Ive been bouncing from hotel to airbnb, but on Monday I will have somewhere to actually unpack my bag! Im surprised at how nice everyone in the course is, but I guess its not hard to get on with a whole room of people with similar interests and career aspirations.
 
 All in all Im looking forward to the next 6 months in gSchool and beyond. This course is going to provide me a lot of luxuries that many people dont get (or dont take) such as:
-*being able to get up in the morning and pursue something that I really enjoy
-*create innovative products,and
-*be a part of great abstract thinking teams
+
+* being able to get up in the morning and pursue something that I really enjoy
+* create innovative products,and
+* be a part of great abstract thinking teams
+
 all thanks to the first stepping stone that is gSchool, so I count myself quite lucky. 
 
 Now back to working on a Sunday... :)
