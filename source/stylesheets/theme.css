@@ -1,15 +1,15 @@
 body {
-  background: #eeeeee;
-  font-family: "Lustria", "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
+  background: #ffffff;
+  font-family: "Oswald", "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #222222;
 }
 a {
-  color: #2f84c2;
+  color: #8C8C8C;
 }
 a:hover {
-  color: #2a76ad;
+  color: #248AE3;
 }
 header {
   padding: 3em 0px 3em 0px;
@@ -48,7 +48,7 @@ h6,
 .top-nav,
 .nav-bar,
 .sub-nav {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .bottom-border {
   border-bottom: 4px solid #a2a2a2;
@@ -59,7 +59,7 @@ h6,
   line-height: 2.5em;
 }
 a.logo {
-  color: #ededed;
+  color: #8C8C8C;
   font-size: 1.4em;
 }
 a.logo:hover {
