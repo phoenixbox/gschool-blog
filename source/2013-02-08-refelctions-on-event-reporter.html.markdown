@@ -31,4 +31,4 @@ No doubt this will be a recurring process so bring on the next 5.5 months...
 
 ###EventReporter Project
 
-[Clone my repo:](git@github.com:phoenixbox/event_reporter_final.git)
+[Clone my repo: git@github.com:phoenixbox/event_reporter_final.git](git@github.com:phoenixbox/event_reporter_final.git)
