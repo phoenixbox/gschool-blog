@@ -25,3 +25,10 @@ Hours put into this project? +8hours * 3 days = 24hours, of which id say 8 were 
 Was the project enjoyable? No not really! For me it was very tough, but I think if I had been given a lesser project I dont think I would have cut my teeth as much.
 
 No doubt this will be a recurring process so bring on the next 5.5 months...
+
+
+****Check it out!
+
+***EventReporter Project
+
+Clone my repo: git@github.com:phoenixbox/event_reporter_final.git
