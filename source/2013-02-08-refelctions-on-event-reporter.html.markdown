@@ -1,12 +1,12 @@
 ---
-title: Refelctions on Event Reporter
+title: Reflections on Event Reporter
 date: 2013-02-08 10:44 -07:00
 tags:
 ---
 
 #Event reporter
 
-###Project Overview
+#####Project Overview:
 
 This week we took on the Event Reporter project. The idea was that this project would build upon some of the skills we had hopefully picked up from our previous two projects MicroBlogger and EventManager, namely simple method and class creation as well as loading and parsing a csv file.
 
