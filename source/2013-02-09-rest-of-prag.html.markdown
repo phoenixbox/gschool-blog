@@ -1,5 +1,5 @@
 ---
-title: rest-of-prag
+title: Rest of Pragmatic Programmer
 
 tags:
 ---
