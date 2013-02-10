@@ -4,11 +4,11 @@ title: Rest of Pragmatic Programmer
 tags:
 ---
 
-## What the over-arching message of the passionate programmer?
+#### What the over-arching message of the passionate programmer?
 
 I would say that the central theme running through the book is awareness.Fowler is constantly re-iterating that programmers need to take ownership of their domain, their skill sets and their reasoning for being active within the industry. He advocates a constant effort to improve, to re-assess and continually adjust a career path towards the most fulfilling experience as opposed to the most successful end. A core message seems to be that programmers should never allow themselves to become complacent. They should actively take ownership of their career’s direction.
 
-## What lessons from the book can you apply to your work in gSchool?
+#### What lessons from the book can you apply to your work in gSchool?
 
 The main lesson I can apply to the program is to actively seek out that which will provide me the best opportunity to improve. It would be quite easy to be a passenger on the gSchool train. What I mean is that there is so much actual school work to get through that it would be easy to focus solely on just doing that and over looking the broader opportunities that come from being within the Galvanize space. 
 
@@ -20,7 +20,7 @@ I think its important that we stray outside of our comfort zone while we are her
 
 The part of me that wanted to skip the gather café pitches so that I could spend more time on the event reporter is the part of me I will actively try to repress having read Fowlers book.
 
-## Soon you’ll be trying to evaluate companies and deciding if they’re the right fit for you. What are some aspects, tied to the book, that you’ll look for in their style and culture?
+#### Soon you’ll be trying to evaluate companies and deciding if they’re the right fit for you. What are some aspects, tied to the book, that you’ll look for in their style and culture?
 
 Something that stuck with me from reading the book (apart from actively managing my own development with regards my skill set) was that the people whom you surround yourself with is just as important as anything else. Obviously this is a no brainer. If you work for losers you will most likely adopt the traits of these losers. The harder task is to discern between the better and the best. 
 
@@ -30,6 +30,6 @@ An immediate example of those whom are in Galvanize that I think are perhaps mos
 
 These guys not only tick the programming boxes but they tick the boxes that they actively seek out. On the surface of it, based on Fowlers writings, these guys seem pretty close to being on the path towards the ‘best’.
 
-## What technique from the book have you meant to be doing, but aren’t doing regularly/effectively? Why not? Can you change?
+#### What technique from the book have you meant to be doing, but aren’t doing regularly/effectively? Why not? Can you change?
 
 I think everyone can relate to the understanding that being comfortable is not the best path towards achieving what you want. The problem we all face is that we are hardwired for risk aversion. We naturally don’t like risk because its unsafe. If we stay safe we stay alive for longer. We are far from the cave man days though! Safety for survival is less of an issue but the mind frame is hard to shake. All of us at gSchool have taken a risk by being part of the program. We have already made uncomfortable decisions in an effort to improve. Being able to do this regularly and effectively is the hard part because of our natural intuition to play it safe. Practice makes perfect so hopefully Ill find the stones to keep seeking out uncomfortable experiences!
