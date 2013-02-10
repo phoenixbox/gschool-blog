@@ -1,6 +1,6 @@
 ---
 title: rest-of-prag
-date: 2013-02-09 20:36 -07:00
+
 tags:
 ---
 
