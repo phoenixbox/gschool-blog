@@ -1,0 +1,19 @@
+---
+title: Week 3 in gSchool
+date: 2013-02-15 09:03 -07:00
+tags:
+---
+
+#### gSchool Week 3 Retrospective
+
+Three weeks into gSchool, 3 projects down and the 4th due next week. Im enjoying the pace and the course content but things have not yet become completely clear. We have covered a lot of material and dealt with a pretty broad range of theory and methodology so Im hoping that in a few more weeks things will begin to click a little more but for now Im still in the dark on a few things.
+
+Our most recent project SalesEngine builds upon our last few projects. We are building an API and have begun our first foray into the practice of TDD. TDD is not too complicated but syntactically it will take a little getting used to. My previous exposure to testing practices has been r-spec. R-spec testing was introduced to the majority of us through our prep video course; Pragmatic Programming. At the moment its a bit of a Jack of all trades master of none but you cant be a master in 3 weeks so over time Im sure I will better at it.
+
+A technique that Ive used in the project that was once very opaque is that of parsing & appending the contents of CSV's to a new collection with which I can work with. While not totally clear, its more clear than it was when we started. Many things are still very confusing but its more a collective confusion than confusion of specific topics. I think I know alot of things but havent quite figured out how they all tie together and then how I can apply them to a logical question.
+
+Pair programming is interesting. Its hard to talk out a problem when you are used to figuring it out fully first yourself and then explaining it to someone else. Its good to get another perspective. I think my preference for collaboration right now would be for half pair programming and half individual learning.
+
+Three weeks into gSchool I dont feel like a capable developer but I think I am on the right path. There are alot of new ideas and concepts to wrap my head around before I get to actually apply them to a problem. I dont yet have a base tool set that I can use to solve programming problems but 3 weeks is not a very long time so Im sure 3 weeks from now I will be exponentially better equipped to tackle programming programs. One thin is for sure is that any programming course that is less the 6 months where you are in every day learning is a load of bullshit. To get the skills you need to put in the hours, so while things are not so clear now, I know Im in the best place available to acquire the skills.
+
+Im most excited for the many ah-ha moments over the next few weeks where things begin to click.
