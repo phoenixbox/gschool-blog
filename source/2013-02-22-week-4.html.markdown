@@ -1,0 +1,56 @@
+---
+title: Week 4
+date: 2013-02-22 09:02 -07:00
+tags:
+---
+
+Sales Engine Retropsective
+
+Sales Engine in many ways was quite a horrible experience! For a ruby noob it was definitely a jump off the cliff moment/sink or swim moment. In the end it got done, how much do I feel I contributed to it? Marginally! Im still learning so the process of incessantly asking questions feels like it debases the real effort but whatcha gonna do, gotta learn, gotta ask questions, gotta get help or as Jeff says gotta collaborate. Now having finished the project, Im still at odds with many of the concepts and practices that were monkeypatched (!buzz word possibly out of context alert!) from other people but sure its meant to be tough so Im sure I will get there in the end. And as my brother from someone who is not my mother may have said at one point or another, get smart or die tryin. (thanks 50)
+
+###What was the most surprising thing about your work on the project?
+
+I was surprised with how much I disliked the project process yet still enjoyed it in some weird way. I think that is a real litmus test for whether this is actually a career I should pursue. 4 weeks in you can never know if by being caught up in all the work whether or not the subject matter is really for you BUT I had a little moment this week when I was thinking, "this sucks, why do I enjoy it"? So with that in mind I think I will be fine, as motivation to overcome the hurdles will not be hard to come by. And at the end of the day it beats counting beans a la accounting.
+
+###How many hours did you put in? How many of them were valuable?
+
+Too many hours to count. 90% of which were useless to be fair. Or at least on the surface of it they seemed useless, but its all about exposure exposure exposure for me as a beginner, so that which seems useless all plays its own role.
+
+###Could the valuable ones exist without the invaluable?
+
+Consider yourself already answered sir
+
+###How will you replicate or change your schedule for the next project?
+
+Next time I will again ask more questions. Letting go of the idea that asking for helpis a cop out is something that may take time, but in this process the asking part is the name of the game. Jeff, Franklin & Katrina are also all very helpful and patient so if there were ever a place to ask too many questions this is it.
+
+###If you were going to start the project again on Tuesday, what would you do differently?
+
+I would ask ask ask ask ask ask more questions. My brain intially thinks, just be more intelligent next time!, but the question asking is the real kernel of the progressive approach.
+
+###Focusing on the pair work process, what did your pair do well?
+
+I worked with Erin, she was a great partner and pulled much more weight than I did, as well as being understanding of my difficulty to grasp some things. She was a good egg as they say. And she toughed it out aswell which gets her a lot of respect points in my book.
+
+###What did you struggle with?
+
+The programming. Or more accurately the conversion of logic into actual keystrokes, and that is all just a product of unfamiliarity with the content. The warm-up exercises this week have provided alot of useful practical examples, whereby english logic is transferred into keystrokes which is helping me with the conversion process. I can definitely logic out a problem but as of yet I dont have a great tool set to call upon to practically work it out.
+
+###What’s something that worked but you have no idea how/why?
+
+The project was submitted, all done and meeting a high standard. If you had asked me at the start if I thought we would have achieved that I would have said yes.......but I would have been lying straight to your face. But we got it done so turns out it wasnt a lie at all...
+
+##Becoming a Developer
+
+###You’ve finished your first real project. NOW are you a developer? Why/why not?
+
+I am not a developer yet, I still ahve my training wheels on. I would define a developer as someone who can conceptualise a solution to a problem that they see and then draw upon a broad skill set to create the solution in code through collaboration with others. Which is effectively what we did this week. Im just missing the tool set right now.
+
+###We’re about to start shifting to a web context. What is interesting about that? What’s nervewracking?
+
+Whats interesting is that now we are truly considering an end user which is why Im really here, to build solutions to end user problems so thats cool. No nerves, no feelings, this week has numbed me! I jest
+
+###What’s your favorite thing about our class (people and/or structures)?
+
+Favourite thing is probably that the instructors are so into it, they genuinely want to help. I had thought initially that peppering them with questions would piss them off but they are so open to them that it makes the learning process alot easier
+
