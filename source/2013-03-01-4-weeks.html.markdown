@@ -1,0 +1,47 @@
+---
+title: 4 weeks
+date: 2013-03-01 09:01 -07:00
+tags:
+---
+
+So 4 weeks into the program and here are some of the quetions given to us by the gSchool instructors.
+
+## Your Progress
+
+### We’re officially one month in. How are you feeling?
+
+gSchool is definitely a challenging experience for me. The pace at which new concepts and ideas are thrown at you is quite high, just when you are getting the hang of one thing, along comes another 3 things that are to be implemented in the next project. I think that this is a good thing, Its pushing me to try and absorb as much new information as possible and increase my threshold for learning new material in a short time frame.
+
+### How has your relationship to your peers matched or contrasted with your expectations? Do you think that will change at all during the remaining five months?
+
+Everyone at gSchool is pretty cool, I had imagined there would be more conflicting personalities in a  group of 24 strangers, but everything has gone smoothly so far! Naturally within a group of 24 people you become closer with some more than others. I think I should make more of an effort maybe with those whom I havnt gotten to know so well yet, but on the whole everyone gets on better than I had imagined they would.
+
+### Monday we’ll conduct our first individual skills evaluation. How do you think it’ll go? What will be your strengths and weaknesses?
+
+I understand alot of new things, but the confidence in those foundations is not yet there. What I mean by that is that problem solving can often get disrupted by questioning the correct logic to apply to the problem. So when Im going along fine, working something out and then something unexpectedly breaks, I often question all of which I understand instead of questioning one small part of what I understand. The net effect is a lot more time spent debugging because I end up looking over the parts of the code which I should be more confident that they are certainly correct becasue of a fundamental understanding. A little confusing! In short Im not there yet, but Im doing my best and I think Im getting little wins everyday. Ill never be as bad as when I started so every cloud.......
+
+### Make a "resolution" for the next month – what are you going to focus on doing better?
+
+I am putting in a lot of effort and Im asking questions when Im stuck, so theres not much that I can do drastically better. If I had to make a resolution it would be to do more coding drills based on the simple warm-up examples and their sources. Also to try and complement course work with screencast work, this helps me get another perspective on things like Sinatra and HTML etc.
+
+##TrafficSpy
+
+### Is working in a web context more exciting than our command-line applications?
+
+Itsdefinitely more exciting to see something on a browser as opposed to the terminal. The tie in with the web mark-up makes things feel a lot more legit rather than the sandbox feel of the command line. Its a nice little reminder that we will actually be building real things that someone can get some use out of.
+
+### What’s more challenging/confusing?
+
+The added complexity comes with tying in the markup language and the database creation, again a new week with brand new topics being applied to a project. Its not more challenging/confusing, its just more of the same, but to cover all the bases in 6 months to a decent standard we gotta swim in the deep end
+
+### How could things be simplified? AKA, do any of the components/technologies seem unnecessarily complicated?
+
+I think any of the inherent complexity of the project is there for a reason. I think we are taking a good arc between working with raw data to creating and managing databases. Starting with the very basic level will demystify the processes we will deal with in the future and make us more competent devs. Im sure alot of Rails magic could be sprinkled on the project to make things more simplex but magic is bad mmmmmmmmmkay
+
+### What practices/techniques are benefitting you so far? Which feel like they’re slowing you down?
+
+I think Im going as fast as possible at the moment. Any deadweight time I think is a necessary teething period of learning a new topic. I mentioned before that it often feels we are not effectively coding/problem solving for 90% of the project time, which seems like such a waste, but that 90% is the time spent grappling with new concepts and slowly building a solid understanding of things. It seems like we could be doing things more efficiently but that is not appreciating the importance of the 90% of struggle time.
+
+### Is testing getting easier as you gain practice, or harder as the projects get more complex?
+
+Testing never seemed hard to me, based on some functionality we should get an expected value. Pass if true, fail if false, pretty simple, but the mehodology for writing them seems counter-intuitive. Writing a failing test and then writing code to pass it, at first seemed like a backwards approach but its starting to make more sense now. We have dealt with two different testing syntaxes in a 4 week period so that has added a layer of confusion but it will be grand
