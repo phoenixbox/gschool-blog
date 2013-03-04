@@ -1,6 +1,6 @@
 ---
 title: Metaprogramming
-date: 2013-03-03 19:31 -07:00
+<!-- date: 2013-03-03 19:31 -07:00 -->
 tags:
 ---
 
