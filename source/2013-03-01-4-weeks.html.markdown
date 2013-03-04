@@ -42,6 +42,6 @@ I think any of the inherent complexity of the project is there for a reason. I t
 
 I think Im going as fast as possible at the moment. Any deadweight time I think is a necessary teething period of learning a new topic. I mentioned before that it often feels we are not effectively coding/problem solving for 90% of the project time, which seems like such a waste, but that 90% is the time spent grappling with new concepts and slowly building a solid understanding of things. It seems like we could be doing things more efficiently but that is not appreciating the importance of the 90% of struggle time.
 
-### Is testing getting easier as you gain practice, or harder as the projects get more complex?
+###   Is testing getting easier as you gain practice, or harder as the projects get more complex?
 
 Testing never seemed hard to me, based on some functionality we should get an expected value. Pass if true, fail if false, pretty simple, but the mehodology for writing them seems counter-intuitive. Writing a failing test and then writing code to pass it, at first seemed like a backwards approach but its starting to make more sense now. We have dealt with two different testing syntaxes in a 4 week period so that has added a layer of confusion but it will be grand
