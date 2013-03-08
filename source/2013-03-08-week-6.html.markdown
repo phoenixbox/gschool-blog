@@ -1,0 +1,48 @@
+---
+title: week 6
+date: 2013-03-08 09:00 -07:00
+tags:
+---
+
+# TrafficSpy Retropsective
+
+#### Another project in the books. How did you feel about your contribution to your team’s project?
+
+Every week in gSchool brings new topics to get to grip with. TrafficSpy was spread over 2 weeks so there was more time to get a handle on the topics but again there is not much time for retrospective. Days are busy here and often its hard to get the time to do code reviews/topic reviews, especially at the end of a confusing day, the mental capacity is not quite there. This project was not much different from others, pretty challenging, but when you get to do a retrospective and check out the development path that was taken its alot easier to figure out. Doing the project the first time around, is so much harder than the second time becasue you have a better perspective then. At least thats what I find. Once I can retrace my steps the processes seem alot less foreign. TrafficSpy was our first project where we had what felt like a genuine end user focus and interface design remit. I was a little stuck on the programming fundamentals of the project so I didnt get much time to implement a personal UX/UI design, but Im going to do that over the weekend so I have a better comprehension of how the backend ties into the front end via the markup and JS. John handheld me through the project. Hopefully in a few months I will have the training wheels off
+
+
+#### What did you think of Sinatra? Sequel? Would you enjoy using these tools on a larger project? Did you think their APIs were logical and reasonable, or are there changes you’d like to see?
+
+Sinatra seems like the right choice for the right job. If you want to quickly prototype an idea it seems like a great tool and Sequel seems like the go-to for basic database operations. Having only had 2 weeks-ish with both I cant say much for or against them, apart from that I believe they definitely have a use in rapid-prototyping. The sinatra API was quite logical and intutive, but then again I dont think our program really stretched it so I can only assumes that any flaws that exist only become apparent under API duress. Sequel was unusual but pretty user friendly. Comparing it with that of SalesEngine data architecture it is so much easier to understand. 
+
+#### Now that you really understand the problem, what would you do differently if you could go back to the beginning?
+
+A funny thing that didnt really click with me until near the end of the project was just what the HTTP verbs were doing. They are pretty self explanatory but I guess I just took the meaning I inferred from them for granted. I was like, oh yeah just post this to that and then get it back in a view. All pretty simple, but I didnt really understand the URL encoding until later on in the week. It wasnt a huge deal, but I just thought that when I understood how a URL was being encoded and what the command line curl was doing etc. things just seemed a little more intuitive. Basically I didnt read the instructions well enough!
+
+#### Were the parts you thought would be hard actually hard?
+
+Its easy to look at the (what seem like fairly sparse) project instructions and initially think.........oh.............fuck......Then you realise that 
+* We are pretty lucky to actually have a project outline
+* If we just break it down and start with one failing test and go from there, things will sort themselves out as you progress.
+The pink elephant in the room at the start of the project was Postrgesql. As usual when you throw a pigeon among the cats, people lose their shit. I would say that cumulatively accross the group in the first few days about 50 hours were wasted just messing around and questioning what to do about the Postgres elephant. Its a bit of a virtuous cycle, you think "oh no I wont bother with that until I make a few steps in the rigth direction", and then overhear other groups talking about implementation strategies etc. This continues until Postrgres fever hit everyone and cue 2 full days of cumulative wasted time. Dont believe the Postgres hype! Just ask Jeff/Franklin to install it for you and set up your database environments and you will be grand ha!
+
+#### What about the parts you thought would be easy?
+
+I dont think I have actually thought that any parts of the project would be easy after reading the project outlines. New topics, new implementations, an oh fuck moment and then start attempting some keystrokes is usually how it goes.
+
+### Obama for America Event (if you went)
+
+#### What stuck with you from the event yesterday?
+
+The OFA guys talked about user fail safety in their software design, so that basically if it hits the fan the user should be kept from the problem and efforts should be made to redirect them to somewhere else within the application to conntinue their engagement in spite of a failing process. This was a pretty cool idea that I had never really thought much about. The user and community was central to the OFA remit, so they made efforts to provision for the optimal user expereience at every turn in order to keep on with their community generation.
+
+#### Are there any patterns or ideas you’d try to implement yourself?
+
+The user fail safety is something I would definitely try to provision for if I was leading an application build. Also they spoke of a way to deal with their inner community members so that they didnt have any disruptions. I kind of liken it to the agile dev process but more along hte lines of agile feedback. Build and release early and get feedback on the product, and within the team, send an email early in the moments where tension related to an implementation is starting to build between two parties. A takeaway from the OFA talk for me is that agile has a broader scope that implementation but also feeds into management and strategy.
+
+#### Would you go all-in, 12 hour days seven days a week, for politics?
+
+I do 14-15hrs here at Galavanize at what is probably a much less pace that the OFA campaign but yeah Id do it if I cared. Or if Palin/Bachmann were up for the presidential nomination for the US. Id live in a box in an office to stop that shit.
+
+
+
