@@ -5,7 +5,7 @@ tags:
 ---
 ## HTML & CSS Chapters 1-7
 
-Most of the content in the first 7 chapters was pretty familiar to me. There were a few things I had not seen such as the use of an <abbr> combined with a title="" attribute so that a word could be abbreviated but also contain more information onMouseOver or for the screen readers. The area where I think I picked up most information was in the Forms chapter, so I will chat about that here.
+Most of the content in the first 7 chapters was pretty familiar to me. There were a few things I had not seen such as the use of an abbr tag combined with a title="" attribute so that a word could be abbreviated but also contain more information onMouseOver or for the screen readers. The area where I think I picked up most information was in the Forms chapter, so I will chat about that here.
 
 #### Forms: Chapter 7
 
