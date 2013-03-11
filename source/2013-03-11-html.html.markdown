@@ -1,0 +1,62 @@
+---
+title: html
+date: 2013-03-11 15:23 -06:00
+tags:
+---
+## HTML & CSS Chapters 1-7
+
+Most of the content in the first 7 chapters was pretty familiar to me. There were a few things I had not seen such as the use of an <abbr> combined with a title="" attribute so that a word could be abbreviated but also contain more information onMouseOver or for the screen readers. The area where I think I picked up most information was in the Forms chapter, so I will chat about that here.
+
+#### Forms: Chapter 7
+
+Having just finished the TrafficSpy project, where we got a greater depth of HTTP verb understanding, the function of the action and method attributes used within the form tags became clearer. Within TrafficSpy we were using primarily the GET & POST HTTP methods.
+
+This section interested me the most becasue of its fundamental remit of user interactivity. Actions taken by the user will be requests to the server, and resultant user expectations will be fulfilled. It became clearer how the input tags were nested within the form tags which contained the context of the action. 
+
+An interesting use of this I came accross, is when applied to the sinatra project we just finished. We can use a simple HTML form to post username and password details to a login route handler which will check if those details are the same as the ones stored in a configure block. In our server.rb we can create a configure block that enables sessions and also sets the username and password we should expect for a valid user login.
+
+```ruby
+configure do
+  enable :sessions
+  set :username, 'shane' 
+  set :password, 'cookies'
+end
+```
+
+We then create a login route handler in the server;
+
+```ruby
+get '/login' do
+  erb :login
+end
+```
+
+We can then use the following html in our login view. We can later convert this HTML to erb or slim etc but for HTML example purposes we will leave it as it is for the moment. In our HTML block we seen that we create a form with 2 inputs for both username & input. We provide the form with a url action and a POST method so that the details entered are POSTed to the aciotn URL
+
+##### Login HTML
+```ruby
+<form action="/login" method="POST">
+  <label for="username">Username:</label>
+    <input type="text" name="username"/> 
+  <label for"password"> Password:</label>
+    <input type="password" name="password"/>
+    <input type="submit" value="Log In"/>
+</form>
+
+```
+
+In the route handler we create, we see if the strings entered into the form, which are saved in the params hash, are the same as the strings we have in the configure block. If they validate to true we then set the session[:admin] to true
+
+##### Sinatra Route Handler
+```ruby
+post '/login' do
+  if params[:username] == settings.username && params[:password] == settings.password 
+    session[:admin] = true 
+    redirect to('/profile')
+  else
+    erb :profile
+  end 
+end
+```
+
+Thus we have used HTML to provide a form for the user to validate their credentials with our application server and log in!
