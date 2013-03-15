@@ -1,0 +1,13 @@
+---
+title: week 6
+date: 2013-03-15 09:02 -06:00
+tags:
+---
+
+### Gschool Week 6
+
+# This week we split out groups into 3. One for advanced, one intermediate and one for beginners. Basically those for whom the foundations were not fully covered becasue the pace of the course was too fast were in the beginners group. I was in that group and it was the best week in gSchool so far.
+
+The worst thing about gSchool so far has not been how difficult the content has been becasue it hasnt. The only problem came from not having a solid understanding of the building blocks of Ruby. If you dont know how to use your tools you cant start using your creativity to solve problems. This is how I felt all up to this week. I felt it wasnt that I couldnt make things or solve problems it just felt I was under resourced with my tool set. Taking the time this week to stop and nail some basic foundations now gives me the ability to actually start using my brain to solve problems with a toolset.
+
+The crux of this new skillset is testing. Testing allows you to start moving and fits in nicely with the saying a thousand mile journey starts with on single step (or something along those lines). Testing allows you to travel along the stepping stones of development and stops yoiu from taking on too much at a time, or in programming terms, trying to do too much at one. I feel alot more comfortable now with programming and this week I have probably made 50x more keystrokes than I have over the other weeks. I feel I can actually get better now which is great. I hope I can now also contribute to group projects more instead of just being let by the hand as I was over the last few projects. This week represented the first of a lot of little steps towards becoming a better programmer. Im glad Im actually moving now
