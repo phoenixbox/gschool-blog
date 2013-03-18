@@ -65,13 +65,15 @@ The new version is not groundbreaking, but there is a decent amount of visual fe
 
 Next time I will do better CSS overlords, pinky promise...
 
-Our CSS whom art in an external stylesheet
-Hallowed be thy syntax
-Thy styling come
-Dem Visuals will be done
-On Desktop as it is on tablet
-Give us this day our daily div
-And forgive us our poor floats
-As we forgive those who float against us
-And lead us not into inline styling
-But deliver us from FOSI. Amen
+I will say 10 Our CSS's as I repent:
+
+Our CSS whom art in an external stylesheet  
+Hallowed be thy syntax  
+Thy styling come  
+Dem Visuals will be done  
+On Desktop as it is on tablet  
+Give us this day our daily div  
+And forgive us our poor floats  
+As we forgive those who float against us  
+And lead us not into inline styling  
+But deliver us from FOSI. Amen  
