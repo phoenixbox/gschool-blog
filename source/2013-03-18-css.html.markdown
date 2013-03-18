@@ -1,0 +1,11 @@
+---
+title: CSS
+date: 2013-03-18 15:51 -06:00
+tags:
+---
+
+##CSS Week
+
+This week our reading assignment was to cover the CSS chapters of our HTML & CSS book. I have a general understanding of CSS, but I have never really implemented much. All of the CSS I have played with before has usually been a pre constructed set of CSS code and assets. I have never written much from scratch myself. CSS brings webpages to life, and provides a more interactive and enjoyable experience for users. Anyone vaguely familiar with web development understands this. Implementing it is fairly easy and there is a whole range of free pre-cooked CSS code blocks to draw upon for use after you have the fundamentals down. This week I didnt get the fundamentals down, I got preoccupied with learning more Ruby so aplogies my grand CSS overlords I will do better next time. But for now lets just cover the embarassing basic of the basics, adding a splash of colour and changing some fonts and table formats.
+
+![Old text](/images/old.png)
