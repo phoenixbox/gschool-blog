@@ -8,4 +8,70 @@ tags:
 
 This week our reading assignment was to cover the CSS chapters of our HTML & CSS book. I have a general understanding of CSS, but I have never really implemented much. All of the CSS I have played with before has usually been a pre constructed set of CSS code and assets. I have never written much from scratch myself. CSS brings webpages to life, and provides a more interactive and enjoyable experience for users. Anyone vaguely familiar with web development understands this. Implementing it is fairly easy and there is a whole range of free pre-cooked CSS code blocks to draw upon for use after you have the fundamentals down. This week I didnt get the fundamentals down, I got preoccupied with learning more Ruby so aplogies my grand CSS overlords I will do better next time. But for now lets just cover the embarassing basic of the basics, adding a splash of colour and changing some fonts and table formats.
 
-![Old text](/images/old.png)
+Lets take a look at this monstrosity below. We have a simple table with a bunch of content and a normal form field. It looks ugly, it is ugly. Welcome to the early 90's. Its a terrible time for all.
+
+![Old version](/images/old.png)
+
+So what to do with this ugly block? Well we can add some styling to the data tables so that the content is more readable and user friendly, so lets do that. Here is the external stylesheet that I am going to attach to the simple html.
+
+```ruby
+body {
+  font-family: Arial, Times, serif;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;}
+h1, h2 {
+  font-family: Arial, Verdana, sans-serif;}
+  .credits {
+  font-family: "Courier New", Courier,
+  monospace;}
+td {
+  background-color: #99ccff;
+  padding: 15px;
+  border: 2px solid #000000;
+  text-align: center}
+th {
+  text-align: center;}
+table.one {
+  border-spacing: 5px 15px;}
+h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  background-color: #efefef;}
+p.example {
+  font-family: Arial;
+  margin-top: 100px;}
+```
+
+In order to effect a styling change on the table I define a border style on the table with a class of one. I also implemented some simple colour styling on the individual table cells. Nothing fancy just enough to provide a visual distinction. Other styling information I added was for the fixed positioning of page elements, and the central alignment of the table cell data. And of course the external stylesheet is defined within the head of the html as follows.
+
+```ruby
+  <head>
+    <title>Tables</title>
+    <link rel="stylesheet" type="text/css" href="sample.css">
+  </head>
+```
+
+![New version](/images/new.png)
+
+The new version is not groundbreaking, but there is a decent amount of visual feedback from the page which the user can then interpret more easily.
+
+Next time I will do better CSS overlords, pinky promise...
+
+Our CSS whom art in an external stylesheet
+Hallowed be thy syntax
+Thy styling come
+Dem Visuals will be done
+On Desktop as it is on tablet
+Give us this day our daily div
+And forgive us our poor floats
+As we forgive those who float against us
+And lead us not into inline styling
+But deliver us from FOSI. Amen
