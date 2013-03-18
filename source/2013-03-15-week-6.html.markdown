@@ -6,7 +6,7 @@ tags:
 
 ### Gschool Week 6
 
-# This week we split out groups into 3. One for advanced, one intermediate and one for beginners. Basically those for whom the foundations were not fully covered becasue the pace of the course was too fast were in the beginners group. I was in that group and it was the best week in gSchool so far.
+This week we split out groups into 3. One for advanced, one intermediate and one for beginners. Basically those for whom the foundations were not fully covered becasue the pace of the course was too fast were in the beginners group. I was in that group and it was the best week in gSchool so far.
 
 The worst thing about gSchool so far has not been how difficult the content has been becasue it hasnt. The only problem came from not having a solid understanding of the building blocks of Ruby. If you dont know how to use your tools you cant start using your creativity to solve problems. This is how I felt all up to this week. I felt it wasnt that I couldnt make things or solve problems it just felt I was under resourced with my tool set. Taking the time this week to stop and nail some basic foundations now gives me the ability to actually start using my brain to solve problems with a toolset.
 
