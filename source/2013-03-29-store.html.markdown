@@ -1,0 +1,29 @@
+---
+title: store
+date: 2013-03-29 09:02 -06:00
+tags:
+---
+
+This week was spent building the core funtionality of our first group project, store-engine. It has been goin well, I'm beginning to get a handle on how rails is stitched together. Our group dynamic is very good. I had concerns at the beginning of the project that I would not be able to learn at my own pace but my group members have been very good about going a pace that suits all so that we are not building too fast, we have good test coverage and that we take the time to do code reviews on specific features so all is well at the moment.
+
+### What’s the most confusing component of Rails? Why? Could it be simpler, or is it just solving a difficult problem?
+
+The only really confusing thing about Rails is that it is new, its just unfamiliar but after only 2 weeks I feel more comfortable with it. The periodic code reviews we are doing solidify the understanding of how we are building the app and as always, the thing that shows the way is TDD. One step at a time is best and it forces us to understand what is working where and why.
+
+I dont know if Rails could be simpler because I have only had 2 weeks exposure to it. All thigns can be simplified but Im not in a position to judge what is efficient and what is inefficient. Having started solely in Ruby, it does seem like ActiveRecord takes care of a lot of the tedious relationship construction between tables. Rails is also intelligent enough to know when some things require pluralisation and singularisation. Beware the pothole of assumption though. Rails is nice from a developer standpoint so far. I now truley understand how developers can rapidly prototype apps. Its no wonder that not only are their start-up of the year awards there are start-up of the day awards in the rags.
+
+What did you think about the increased emphasis on pairing this week? Was it productive for you? Why or why not? What’s challenging when you’re pairing, and what’s easier?
+
+Our 3-way pairing has worked only becasue of the right pace that has been set and the ping-pong methodlogy we use. All of our group members can be in the flow of learning and all parties are actively engaged in the practical aspects of the coding so everyone gets their hands dirty. I had previously been against pairing for a learning means but when the pace is right I think it is a very good tool to learn by.
+
+How do you feel about acceptance testing after Joseph’s talk Wednesday? Does your application make good use of acceptance tests?
+
+Josephs talk was so fragmented that it was hard to keep up. I understood the sentiment of what he was saying, focus on the testing for business value (I think!) but the disjointed traversing from various code snippets where there was little time to understand the relationship between things made it difficult to single out some solid takeaways. I do beleive that there is something cool in Cucumber and many people vouch for Factory Girl so I know as I develop my skill set I will invest in a discover of these topics.
+
+This is your first project working in groups larger than two. Do you feel like your progress is moving faster?
+
+From the outset of our project we assigned Blair as our group leader as he has the most experience with rails, having built a few apps before he came to gschool. I dont think there is a direct relationship between more heads to the task and faster completion. I think the recipe for faster project progression has a main ingredient of people who work well together, and the other ingredients are the collective efforts made to keep everyone engaged at a pace that allows optimal learning whilst also periodically doing code reviews/retrospectives to get make sure everyone is on the same page. I guess its like an agile learning methodology. I also think that moving faster is more achievable for the person(s) in the group with less experience. Working with Blair forces me to try and keep up with what he knows so being surrounded by others with better skills is good for me.
+
+What should we expect to see in your demo Thursday? Will it be amazing, decent, or crap?
+
+I think that we will deliver an app with solid functionality with a limited amount of bugs becasue we have been approaching the project at a good pace. We have been good with our test driven development and we have have been putting in the hard hours upfront so that we have more time to debug and then create a more visually appealing site. I think the project will be something that we can be proud to present come Thursday
