@@ -4,7 +4,7 @@ date: 2013-04-05 08:57 -06:00
 tags:
 ---
 
-## First Project Done
+## First Project Demo Done
 
 This week saw us finish our first gschool projects. My group made it to the final 4 so we got to present to the Galvanize community which was pretty cool if not a little daunting. First impressions count so I hoped that we would do a good job presenting. Personally I was quite proud of what we put together in the the 2 weeks we had for the project. My skill set from my design background definitely helped communicate the value of our work. We ended up winning overall, by virtue of the community members whom had come to watch the presentations so that was a nice way to end the project.
 
