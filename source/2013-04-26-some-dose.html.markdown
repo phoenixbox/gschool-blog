@@ -1,0 +1,25 @@
+---
+title: some dose
+date: 2013-04-26 09:02 -06:00
+tags:
+---
+
+What have you chosen to do differently for this iteration of the project?
+
+I have decided to rollback the hours specnt at Galvanize a little bit compared to what I was doing before. The long hours were not necessarily productive but then again I did learn some new things during the late hours so Im not sure what the optimal amount of tine to spend working is. This is a weird scenario in Denver, I have 6months to try and learn as much as possible so its a bit of an extended sprint. I dont think there is a right answer to how long I should spend working. Just do it and see what happens, making sure to get some quality sleep in the meantime.
+
+What are some of the challenges working with yet another existing codebase?
+
+The main challenge is unfamiliarity. For the start of our project we wrote tests for 2 days which allowed us all to get up to date with the flow and function of the code base while also giving me the chance to write some more tests. I think that this project is the first time that I will have truly done tdd which is good. Progress being made each week
+
+What are some of the differences working more closely with a client in developing features?
+
+This is a difficult one becasue the instructors toe the line between developers and "clients", they dont give a truly authentic client experience becasue they have the domain experience. I anticipate more varied demands and less contextually relevant wants from clients. I think future clients will be more haphazard in their requirements becasue they will not have the domain experience and will just want a product "with everything company X has but better".
+
+Do you find you prefer a more agile approach or a waterfall approach? why?
+
+I think the waterfall approach is wrong becasue I cant inmagine a scenario where closed done big iterations will ever be good. Smaller more open iterations with feedback will lead to a less egotistical product which will more likely satisfy an actual client/consumer requirement/pain point rather than building towards and idea of what a solution might be. Regular client/consumer feedback is necessary becasue people change their minds and the environements in which the product is inteded to live changes too. The development needs to be flexible enough to adapt and the only way to do this is through shorter more rapid iterations with an emphasis on person to person interaction.
+
+What are areas within the Rails stack do you feel you have strong understanding? What areas do you feel you have weak understanding? How are you leveraging/improving these skills in your current project?
+
+I think testing is something that I continue to improve on. The thing I struggle with the most is often just remembering the right syntax for the right requirement. I think this will continue to improve over time. I think Im beginning to understand the bigger rails picture slowly. How everything is really connected is beginning to make more sense to me. Its easy to say that you know how things work but only really understand the surface knowledge because Rails takes care of a lot of the dirty work for you. I think by the end of the course I will have a pretty good fundamental knowledge. After the course I will continue to learn some of the underlying fundamentals like SQL etc so I have a comprehensive knowledge of what supports ActiveRecord etc.
