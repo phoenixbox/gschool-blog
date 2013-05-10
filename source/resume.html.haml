@@ -1,0 +1,592 @@
+!!!
+/[if lt IE 7 ] <html class="ie ie6" lang="en">
+/[if IE 7 ] <html class="ie ie7" lang="en">
+/[if IE 8 ] <html class="ie ie8" lang="en">
+/ [if (gte IE 9)|!(IE)]><!
+%html{:lang => "en"}
+  / <![endif]
+  %head
+    /
+      Basic Page Needs
+      \==================================================
+    %meta{:charset => "utf-8"}
+      %title Shane Rogers Resume
+      %meta{:content => "This is my resume that I have created as part of my weekly reading implementation in gSchool", :name => "description"}
+        %meta{:content => "Typebig", :name => "author"}
+          /
+            Mobile Specific Metas
+            \==================================================
+          %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
+            /
+              CSS Files
+              * cssreset-min.css      - CSS reset
+              * grid.css          - Responsive grid system based on "Skeleton" by Dave Gamache (http://www.getskeleton.com/)
+              * alpha_background.css    - Classes for applying an alpha black or white background
+              * style.css         - Main CSS file
+              * responsive_custom     - CSS override for responsive layout
+              * print.css         - CSS for printer-friendly presentation
+              \==================================================
+            %link{:href => "http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css", :rel => "stylesheet", :type => "text/css"}
+              %link{:href => "css/grid.css", :rel => "stylesheet"}
+                %link{:href => "css/alpha_background.css", :rel => "stylesheet"}
+                  %link{:href => "css/style.css", :rel => "stylesheet"}
+                    %link{:href => "css/responsive_custom.css", :rel => "stylesheet"}
+                      %link{:href => "css/print.css", :rel => "stylesheet"}
+                        /[if lt IE 9]
+                          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+                        /
+                          Favicons
+                          \==================================================
+                        %link{:href => "images/favicon.ico", :rel => "shortcut icon"}
+                          %link{:href => "images/apple-touch-icon.png", :rel => "apple-touch-icon"}
+                            /
+                              Google Web Fonts
+                              \==================================================
+                            %link{:href => "http://fonts.googleapis.com/css_family=PT+Serif:400,700,400italic,700italic.html", :rel => "stylesheet", :type => "text/css"}
+                              %link{:href => "http://fonts.googleapis.com/css_family=Open+Sans:400italic,300,400,700.html", :rel => "stylesheet", :type => "text/css"}
+  %body{"data-offset" => "60", "data-spy" => "scroll", "data-target" => "#section-topbar"}
+    /
+      Topbar: fixed + datascroll
+      
+      * the attribute data-scrollspy is for automatically updating nav targets based on scroll position
+      * scroll the area below the navbar and watch the active class change
+      \==================================================
+    #section-topbar
+      #topbar-inner
+        .container
+          .sixteen.columns
+            .dropdown
+              %ul#nav.nav
+                %li.menu-item
+                  %a{:href => "#section-intro", :title => "About"}
+                    %img{:alt => "Facebook", :src => "images/icons/icon_profile.png"}/
+                %li.menu-item
+                  %a{:href => "#section-resume", :title => "Resume"}
+                    %img{:alt => "Facebook", :src => "images/icons/icon_resume.png"}/
+                %li.menu-item
+                  %a{:href => "#section-works", :title => "Works"}
+                    %img{:alt => "Twitter", :src => "images/icons/icon_works.png"}/
+                %li.menu-item
+                  %a{:href => "#section-contact", :title => "Contact"}
+                    %img{:alt => "Twitter", :src => "images/icons/icon_testimonials.png"}/
+              / // uL#nav
+            / // .dropdown
+            .clear
+          / // .sixteen
+        / // .container
+        .clear
+      / // #topbar-inner
+    / // #section-topbar
+    /
+      Intro
+      \==================================================
+    #section-intro
+      / About
+      #section-about
+        .container
+          .three.columns
+            %h3 About
+          / // .three
+          .nine.columns
+            %p.intro
+              I'm Shane, an aspiring Ruby developer currently based out of Denver, CO. Recently graduated from Trinity College Dublin, I have some user interface design experience and am now getting a solid grounding in all things Ruby. I am studying at gSchool in the Denver tech space Galvanize. I will graduate at the end of July and intend on securing a job on the west coast.
+          / // .nine
+          .four.columns
+            %a.link-print{:href => "#"} Print Resume
+            %a.link-pdf{:href => "downloads/resume_pdf_violet.pdf", :title => "Download PDF Resume"} Download PDF
+          / // .four
+          .clear
+        / // .container
+      / // #section-about
+    / // #section-intro
+    /
+      Resume
+      \==================================================
+    #section-resume
+      .section-title
+        .container
+          .sixteen.columns
+            %h2 Resume
+          / // .sixteen
+          .clear
+        / // .container
+      / // .section-title
+      .container
+        / PROFILE
+        .block
+          .three.columns
+            %h3.no-padding Profile
+          / // .three
+          .thirteen.columns
+            %div
+              .nine.columns.alpha
+                %img.image-profile{:alt => "", :src => "images/mugshot.png"}/
+              / // .four
+              .four.columns.omega
+                #box-profile
+                  %h5
+                    %span.font-color-primary Name
+                    \/
+                  %p Shane Rogers
+                  %h5
+                    %span.font-color-primary Email
+                    \/
+                  %p
+                    %a.link-email{:href => "mailto:billy@example.com"} rogerssh@tcd.ie
+                  %h5
+                    %span.font-color-primary Phone
+                    \/
+                  %p
+                    %a.link-phone{:href => "tel:8136193142\\autoname.htm"} +353 (86) 063-2714
+                / // #box-profile
+              / // .four
+              .clear
+            / // .item
+            .clear
+          / // .thirteen
+          .clear
+        / // .block
+        / EDUCATION
+        .block
+          .three.columns
+            %h3 Education
+          / // .three
+          .thirteen.columns
+            .item
+              .nine.columns.alpha.no-border
+                %h4
+                  Web Development
+                  %span.font-color-gray Focus on Ruby and Rails
+                %p
+                  %span.italic.font-color-black gSchool Denver
+                  %br/
+                  Member of the inaugural cohort 2013
+              / // .nine
+              .four.columns.omega
+                %p.date
+                  Graduating in July 2013
+                  %br/
+                  %span.label In Progress
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 B.B.S Degree in Business Studies
+                %p
+                  %span.italic.font-color-black Trinity College Dublin
+                  %br/
+                  2nd Class Honors, First Grade
+              / // .nine
+              .four.columns.omega
+                %p.date Dec 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+          / // .thirteen
+          .clear
+        / // .block
+        / WORK
+        .block
+          .three.columns
+            %h3 Work
+          / // .three
+          .thirteen.columns
+            .item
+              .nine.columns.alpha
+                %h4 Intern
+                %p
+                  %span.font-color-black.italic Skynet Labs
+                %p.desc
+                  Lead designer of an oil & gas metric conversions database for a suite of cloud based calculator applications. Chief assistant in drafting the Skynet Labs business plan for a Series A financing round of €750k, including the design and preparation of pitch documents.
+              / // .nine
+              .four.columns.omega
+                %p.date June 2012 ~ July 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 Intern
+                %p
+                  %span.font-color-black.italic Mercury Digital
+                  %br/
+                  %p.desc
+                    Led a market research team exploring competitive offerings for digital consultancy and digital asset creation within the Irish SME market, as well as achieving graphic design experience while working for Mercury Digital clients.
+              / // .nine
+              .four.columns.omega
+                %p.date June 2012 ~ July 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 Intern
+                %p
+                  %span.font-color-black.italic Halo Business Angel Network
+                %p.desc
+                  Created, designed and published the ‘HBAN Angel investors handbook’ for current and prospective Irish angel investors. Led all research data collation and graphic design for the final document.
+              / // .nine
+              .four.columns.omega
+                %p.date June 2011 ~ September 2011
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 Graphic Designer
+                %p
+                  %span.font-color-black.italic QRolo
+                  %br/
+                  %p.desc
+                    Led the brand identity creation for QRolo including logo, business networking and promotional materials design as well as creating interactive wireframes for the cloud based application’s proposed functionality.
+              / // .nine
+              .four.columns.omega
+                %p.date January 2012 ~ March 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 Market Researcher
+                %p
+                  %span.font-color-black.italic QRolo
+                  %br/
+                  %p.desc
+                    Lead market researcher for international expansion. Sole designer and producer of a pan-European survey document identifying and contrasting the attractivness of major European cities for international expansion of the VST business model using World Tourism Barometer data sets and geographical imagery.
+              / // .nine
+              .four.columns.omega
+                %p.date September 2011 ~ January 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+            .item
+              .nine.columns.alpha
+                %h4 Aerospace & Defence Analyst
+                %p
+                  %span.font-color-black.italic QRolo
+                  %br/
+                  %p.desc
+                    I was the lead analyst for the Aerospace & Defense sector and led investment pitches including the preparation and execution of in-depth valuation analysis.
+              / // .nine
+              .four.columns.omega
+                %p.date September 2011 ~ January 2012
+                / // p.date
+              / // .four
+              .clear
+            / // .item
+            .clear
+          / // .thirteen
+          .clear
+        / // .block
+        / SKILLS
+        .block.last
+          .three.columns
+            %h3 Skills
+          / // .three
+          .thirteen.columns
+            .box-skill
+              .box-inner
+                %h4 HTML5/CSS3
+                %p At gSchool I am learning how to create beautiful simplistic web design
+              / // .box-inner
+            / // .box-skill
+            .box-skill
+              .box-inner
+                %h4 Javascript
+                %p My Javascript knowledge will form a cornerstone of my web application design skills. Currently I am experimenting with the Phonegap which exposes native API's with JavaScript
+              / // .box-inner
+            / // .box-skill
+            .box-skill
+              .box-inner
+                %h4 Ruby
+                %p As part of gSchool our main programming lanbguage focus is on Ruby
+              / // .box-inner
+            / // .box-skill
+            .box-skill
+              .box-inner
+                %h4 Rails
+                %p Many of our gSchool projects are now built upon the Rails framwework, covering everything from custom CMS' to eCommerce applications
+              / // .box-inner
+            / // .box-skill
+            .box-skill
+              .box-inner
+                %h4 Illustrator
+                %p I am self taught vector graphic artist
+              / // .box-inner
+            / // .box-skill
+            .box-skill
+              .box-inner
+                %h4 Photoshop
+                %p For User Interface design, Photoshop is my go-to application becasue it gives me pixel level precision
+              / // .box-inner
+            / // .box-skill
+          / // .thirteen
+          .clear
+        / // .block
+      / // .container
+    / // #section-resume
+    /
+      Works
+      \==================================================
+    #section-works
+      .container
+        .three.columns
+          %h3 Works
+        / // .three
+        .thirteen.columns
+          /
+            The modal contents that pops up when a user clicks the item is in the bottom of this section
+            Scroll down and find div beginning with id="work-modal-01"
+          %a{"data-reveal-id" => "work-modal-01", :href => "#"}
+            .item
+              .eight.columns.alpha
+                %img{:alt => "", :src => "images/work_1.png"}/
+              / // .five
+              .five.columns.omega
+                .work-info
+                  %span.category Design Work
+                  %h4
+                    %em UI Design
+                    Mobile Edition
+                  %p Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                / // .work-info
+              / // .three
+              .clear
+            / // .item
+          %a{"data-reveal-id" => "work-modal-02", :href => "#"}
+            .item
+              .eight.columns.alpha
+                %img{:alt => "", :src => "images/work_2.png"}/
+              / // .five
+              .five.columns.omega
+                .work-info
+                  %span.category Web
+                  %h4
+                    %em UI Design
+                    Tablet Edition
+                  %p Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                / // .work-info
+              / // .three
+              .clear
+            / // .item
+          %a{"data-reveal-id" => "work-modal-03", :href => "#"}
+            .item.last
+              .eight.columns.alpha
+                %img{:alt => "", :src => "images/work_3.png"}/
+              / // .five
+              .five.columns.omega
+                .work-info
+                  %span.category Print
+                  %h4
+                    %em UI Design
+                    Desktop Edition
+                  %p Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.
+                / // .work-info
+              / // .three
+              .clear
+            / // .item
+          /
+            End of items
+        / // .thirteen
+      / // .container
+    / // #section-works
+    /
+      Work Modal Popup
+    #work-modal-01.reveal-modal
+      %img{:alt => "", :src => "#"}/
+      .box-modal
+        %h4
+          %em UI Design
+          Mobile Edition
+        %p Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus.
+      / // .box-modal
+      %a.link-details{:href => "#"} View project
+      %a.close-reveal-modal Close
+    / // #work-modal-01
+    #work-modal-02.reveal-modal
+      %img{:alt => "", :src => "#"}/
+      .box-modal
+        %h4
+          %em UI Design
+          Tablet Edition
+        %p Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+      / // .box-modal
+      %a.link-details{:href => "#"} View Project
+      %a.close-reveal-modal Close
+    / // #work-modal-02
+    #work-modal-03.reveal-modal
+      %img{:alt => "", :src => "#"}/
+      .box-modal
+        %h4
+          %em UI Design
+          Desktop Edition
+        %p Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.
+      / // .box-modal
+      %a.close-reveal-modal Close
+    / // #work-modal-03
+    /
+      Contact
+      \==================================================
+    #section-contact
+      .container
+        .nine.columns
+          %h3 Contact
+          #contact-warning
+          / // #contact-warning
+          #contact-success
+            Email successfuly sent, thank you.
+            %br/
+          / // #contact-warning
+          %form#contactForm{:action => "includes/include.emailSender.php", :method => "post", :name => "contactForm"}
+            %fieldset
+              %label{:for => "contactName"}
+                Name
+                %span.required *
+              %input#contactName{:name => "contactName", :size => "30", :type => "text", :value => ""}/
+              %br/
+              %label{:for => "contactEmail"}
+                Email
+                %span.required *
+              %input#contactEmail{:name => "contactEmail", :size => "30", :type => "text", :value => ""}/
+              %br/
+              %label{:for => "contactMessage"}
+                Message
+                %span.required *
+              %textarea#contactMessage{:cols => "7", :name => "contactMessage", :rows => "6"}
+              %br/
+              %label{:for => "contactCaptcha"}
+                %strong 1
+                +
+                %strong 11
+                \=
+                %span.required *
+              %input#contactCaptcha{:name => "contactCaptcha", :size => "30", :type => "text", :value => ""}/
+              %input#contactCaptchaAnswer{:name => "contactCaptchaAnswer", :type => "hidden", :value => "12"}/
+              %br/
+              %label.placeholder &nbsp;
+              %button.submit{:href => "mailto:name@example.com"} Submit
+        / // .nine
+        .seven.columns
+          %h3 References
+          #box-references
+            .item
+              %h4 Jeff Casimir
+              %p
+                %span.font-color-primary gSchool Pricipal Tutor
+                %br/
+                = succeed "," do
+                  %em Denver
+                Colorado
+                %br/
+                %a{:href => "mailto:name@example.com"} jeff@jumpstart.com
+                %br/
+                %a{:href => "tel:1234567890\\autoname.htm"} 1-800-RUBY
+            / // .item
+            .item
+              %h4 Diane Roberts
+              %p
+                %span.font-color-primary CEO, xCell Partners
+                %br/
+                = succeed "," do
+                  %em Newry
+                Northern Ireland
+                %br/
+                %a{:href => "mailto:name@example.com"} diane@xcellpartners.com
+                %br/
+                %a{:href => "tel:1234567890\\autoname.htm"} +44 (0) 28 41798123
+            / // .item
+            .item
+              %h4 Tim Duggan
+              %p
+                %span.font-color-primary CEO Skynet Labs
+                %br/
+                = succeed "," do
+                  %em Austin
+                Texas
+                %br/
+                %a{:href => "mailto:name@example.com"} tim@skynetlabs.com
+                %br/
+                %a{:href => "tel:1234567890\\autoname.htm"} +353 (86) 062 5507
+            / // .item
+          / // #box-references
+        / // .seven
+      / // .container
+    / // #section-contact
+    /
+      Footer
+      \==================================================
+    #section-footer
+      .container
+        .six.columns
+          %p
+            %a{:href => "mailto:rogerssh@tcd.ie"} rogerssh@tcd.ie
+        / // .six
+        .ten.columns
+          %ul#social
+            %li
+              %a{:href => "http://www.facebook.com", :title => ""}
+                %img{:alt => "Facebook", :src => "images/icons/icon_facebook.png"}/
+            %li
+              %a{:href => "http://www.twitter.com", :title => ""}
+                %img{:alt => "Twitter", :src => "images/icons/icon_twitter.png"}/
+            %li
+              %a{:href => "http://www.linkedin.com", :title => ""}
+                %img{:alt => "Linkedin", :src => "images/icons/icon_linkedin.png"}/
+            %li
+              %a{:href => "http://www.github.com", :title => ""}
+                %img{:alt => "github", :src => "images/icons/icon_github.png"}/
+          / // ul#social
+        / // .ten
+        .clear
+      / // .container
+    / // #section-footer
+    /
+      JS
+      
+      * jquery-1.9.0.js                 - jQuery
+      * jquery-ui.js                    - jQuery UI
+      * bootstrap-scrollspy.js          - automatically updates nav targets based on scroll position
+      * jquery.foundation.reveal.js     - jQuery modal pop-up plugin from Zurb Foundation
+      * jquery.ajaxContactForm.js       - AJAX contact form
+      * jquery.custom.js                - custom jQuery scripts
+      \==================================================
+    %script{:src => "http://code.jquery.com/jquery-1.9.0.js"}
+    %script{:src => "http://code.jquery.com/ui/1.10.0/jquery-ui.js"}
+    %script{:src => "js/bootstrap-scrollspy.js"}
+    %script{:src => "js/jquery.foundation.reveal.js"}
+    %script{:src => "js/jquery.ajaxContactForm.js"}
+    %script{:src => "js/jquery.custom.js"}
+    / Because jQuery opacity (fadeTo) is being rendered in a weird way in IE browsers, these are only loaded on non-IE browsers
+    / [if !IE]>
+    %script{:src => "js/jquery.custom.noIE.js"}
+    / <![endif]
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21237617-7']);
+      _gaq.push(['_setDomainName', 'typebig.com']);
+      _gaq.push(['_trackPageview']);
+  
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  
+      /
+      End Document
+      \==================================================
