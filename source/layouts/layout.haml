@@ -23,10 +23,12 @@
         %hr
     .row
       .eight.columns
+
         = yield
       / Application Javascript, safe to override
       = javascript_include_tag "app"
       %aside.four.columns
+        %a{href: "../shane_rogers_cv.pdf", download: "shane_rogers.pdf"} Shane Rogers Resume
         .panel
           - if paginate
             %p
